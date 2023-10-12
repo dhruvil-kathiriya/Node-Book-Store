@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/FONTS/fonts.css" />
+    <link rel="stylesheet" href="/BOOTSTRAP/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/all.min.css" />
+    <link rel="stylesheet" href="/css/agency.css">
+    <link rel="stylesheet" href="/css/lp.css">
+    <link rel="stylesheet" href="/css/travel.css">
+    <link rel="stylesheet" href="/css/service.css">
+    <link rel="stylesheet" href="/css/restaurant.css">
+</head>
+
+<body>
+    <section class="wow slideInLeft container service_headbanner">
+        <header class="home_header container ">
+            <div class="row d-flex justify-content-evenly">
+                <div class="home_header_main d-flex justify-content-between">
+                    <div class="home_header_logo d-flex"><a href="/"><img src="/image/home_header.svg"
+                                alt="headerlogo" />
+                            <p class="home_headerp">Treact</p>
+                        </a>
+                    </div>
+                    <ul class="home_header_ul">
+                        <li class="home_header_li"><a href="/">Home</a></li>
+                        <li class="home_header_li"><a href="/travel">Travel</a></li>
+                        <li class="home_header_li"><a href="/restaurant">Restaurant</a></li>
+                        <li class="home_header_li"><a href="/agency">Agency</a></li>
+                        <li class="home_header_li"><a href="/services">Services</a></li>
+                        <li class="home_header_li"><a href="/contact">Contact</a></li>
+                        <li class="home_header_li">
+                            <div class="btn btn-lg home_head_btn rounded-pill">Sign up</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="row">
+            <div class="col-8">
+                <form action="/AddContact" method="post">
+                    <tr>
+                        <td>Name :</td>
+                        <td><input type="text" name="name"></td><br><br>
+                    </tr>
+                    <tr>
+                        <td>Email :</td>
+                        <td><input type="email" name="email"></td><br><br>
+                    </tr>
+                    <tr>
+                        <td>Message :</td>
+                        <td><textarea name="message" cols="25" rows="3"></textarea></td><br><br>
+                    </tr>
+                    <tr>
+                        <input type="submit" name="submit" value="Add Data">
+                    </tr>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

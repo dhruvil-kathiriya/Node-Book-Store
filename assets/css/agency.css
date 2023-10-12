@@ -1,0 +1,257 @@
+/* AGENCY */
+.agency-hire{
+    background-image: url("../IMAGES/agency_banner.jpg");
+    background-size: cover;
+    background-position: center center;
+    z-index: 2;}
+.agency-hire .container{
+    padding: 0 2rem;
+}
+.agency-hire .hire-row{
+    padding: 6rem 0 8rem;
+}
+.agency-hire .hire-wrapper p{
+    font-size: .875rem;
+    color: #f7fafc;
+    margin: 1rem 0;
+    padding: 4px 0 4px 12px;
+    position: relative;
+}
+.agency-hire .hire-wrapper .pipe{
+  position: relative;
+  margin-right: 1rem;
+}
+.agency-hire .hire-wrapper .pipe::after{
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 30px;
+  left: 0;
+  top: -5px;
+  background-color: #4299e1;
+}
+.hire-wrapper h1{
+    font-size: 4rem;
+    font-weight: 900;
+    color: #f7fafc;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: .5rem 0 0;  
+    line-height: 5.2rem;
+}
+.hire-wrapper h1 span{
+    position: relative;
+    color: #6415ff;
+    display: inline-block;
+    z-index: 1;
+    padding: 0 1rem;
+    margin: 0 0 0 -1rem;
+    line-height: 5.2rem;
+    /* transform:skewX(-10deg) skewY(0) ; */
+} 
+.hire-wrapper h1 span::after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: skewX(-10deg);
+    background-color: #f7fafc;
+}
+.hire-wrapper .hire-btn{
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #f7fafc;
+    color: #6415ff;
+    margin: 4rem 0 0;
+    border: none;
+    padding: 1.1rem 2.2rem;
+    border-radius: .25rem;
+    transition: all .5s ease ;
+    -webkit-transition: all .5s ease ;
+    -o-transition: all .5s ease ;
+    -moz-transition: all .5s ease ;
+}
+.hire-wrapper .hire-btn:hover{
+    background-color: #6415ff;
+    color: #f7fafc;
+}
+.agency_ul{
+    list-style: none;}
+.agency_li_p1{
+    font-size: 28px;
+    font-weight: 700;
+    color: #2b3e63;}
+.agency_li_p2{
+    font-size: 16px;
+    font-weight: 700;
+    color: #5b4ece;}
+.agency_track_btn{
+    line-height: 2.25;
+    width: 20%;
+    font-size: 16px;
+    height: 50px;}
+.agency_6card_h2{
+    display: block;
+    text-align: center;
+    color: #6415ff;
+    font-size: 20px;
+    font-weight: 700;}
+.agency_6cards .lp_feature_iout{
+    border-color: #6415ff;}
+.agency_6cards i{
+    color: #6415ff;}
+.agency_6cards .card{
+    border: 2px dashed #6415ff;
+    margin-right: 10px;
+    border-radius: 5px;}
+/* AGENCY_OPS */
+.agency_ops_ul{
+    list-style: none;
+    padding: 0;}
+/* AGENCY_EXPERTISE */
+.agency_expertise_iout{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border: 1px solid #6d22ff;
+    border-radius: 50%;}
+.agency_ibag{
+    color: #6d22ff;
+    line-height: 2.25;}
+.agency_exp_h2{
+    color: #6d22ff;
+    text-align: left;
+    /* font-size: 20px; */
+    font-weight: 700;}
+.agency_exp_p{
+    color: #243e63;}
+.agency_exp_btn{
+    width: 30%;}
+/* agency_portfolio */
+/* agency_testimonial */
+.sidecommonquote{
+    font-size: 25px;
+    color: #334b6d;}
+.agency_accordion_p{
+    font-size: 20px;
+    font-weight: 700;
+    color: #324d63;}
+.agency_accordionitem{
+    background-color: #fff;
+    width: 140%;
+    border: 0;}
+.agency_accordion_button{
+    background-color: #fff !important;}
+/* Blog */
+.agency_blog_p{
+        color: #7c8ba1;
+        max-width: 440px;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;}
+.agency_blog_sec2 i{
+    font-size: 15px;
+    color: #7c8ba1;}
+.agency_tradingtour_h5{
+    font-size: 20px;
+    font-weight: 700;
+    max-width: 350px;
+    color: #243e63;}
+.agency_blog_sec4_p{
+    color: #7c8db6;}
+.agency_blog_btn{
+    height: 50px;
+    width: 40%;
+    line-height: 2.25;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #6d22ff;
+    transition: all 0.5s;}
+.agency_card{
+    border:none;
+}
+.agency_blog_card_wrapper{
+    border: 2px dashed #6d22ff;
+    border-top: none;
+}
+.agency_blog_sec1 img{
+    height: 280px;}
+.agency_contactus_input::placeholder
+{
+    color: #cbd5e0;
+    padding: 10px;}
+.agency_contactus_input{
+    height: 50px;
+    width: 35%;
+    border: 1px solid #cbd5e0;
+    border-radius: 5px;}
+.agency_contact_btn{
+    transition: all 0.5s;
+    height: 50px;
+    width: 20%;
+    color: #edf2f7;
+    background-color: #6415ff;
+    line-height: 2;
+    font-weight: 700;
+}
+/*  */
+ .agency_accordion_button::after{
+    content: "+";
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.5;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    background-image: none;
+    background-color: #6415ff;
+    border-radius: 50%;}
+.agency_accordion .accordion-button:not(.collapsed)::after
+{
+    content: "-";
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.5;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    background-image: none;
+    background-color: #6415ff;
+    border-radius: 50%;
+}
+.agency_footer{
+    height: 420px;
+    width: 100%;
+    background-color: #1a202c;
+}
+.agency_footer_ul{
+    list-style: none;
+}
+.agency_footer_li{
+    display: inline-block;
+    /* font-size: 20px; */
+    font-weight: 600;
+    color: #fff;
+}
+.agency_footer_i_out{
+    color: #fff;
+}
+.footer_img_out{
+    height: 30px;
+    width: 30px;}
+.agency_footer_copyright{
+    color: #6e7a8f;
+}
+.agency_blog_btn:hover{
+    background-color: #5011cc;
+    color: #fff;
+}
+.agency_contact_btn:hover{
+    background-color: #5011cc;
+    color: #fff;
+}
